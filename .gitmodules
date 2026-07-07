@@ -1,0 +1,16 @@
+baseURL = 'https://yuan-hq.github.io/'
+languageCode = 'en-us'
+title = "Yuan's Tech Space"
+theme = 'PaperMod'
+
+[params]
+  env = 'production'
+  defaultTheme = 'auto'
+
+  [params.author]
+    name = 'Yuan'
+
+  [params.profileMode]
+    enabled = true
+    title = 'Welcome to HQ'
+    subtitle = 'Focusing on high-performance computing, VLA implementations, and World Model hardware acceleration.'
