@@ -14,3 +14,14 @@ theme = 'PaperMod'
     enabled = true
     title = 'Welcome to HQ'
     subtitle = 'Focusing on high-performance computing, VLA implementations, and World Model hardware acceleration.'
+
+# 菜单项必须顶格写，不能放在 [params.profileMode] 的缩进里面
+[[menu.main]]
+    name = "Posts"
+    url = "/posts/"
+    weight = 10
+
+[[menu.main]]
+    name = "About"
+    url = "/about/"
+    weight = 30
